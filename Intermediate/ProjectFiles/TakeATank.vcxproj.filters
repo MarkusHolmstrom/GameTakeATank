@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TakeATank.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3EAA2063-C9D4-4151-97BE-62618B0C9CE9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TakeATank.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TakeATankEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8FFE3E62-4818-45F9-83A6-31B5112282B7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TakeATank">
+      <UniqueIdentifier>{8BA83866-3BFA-4F49-9864-A20505D99B6D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TakeATank\TakeATank.Build.cs">
+      <Filter>Source\TakeATank</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TakeATank\TakeATank.cpp">
+      <Filter>Source\TakeATank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TakeATank\TakeATank.h">
+      <Filter>Source\TakeATank</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TakeATank\TakeATankGameMode.cpp">
+      <Filter>Source\TakeATank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TakeATank\TakeATankGameMode.h">
+      <Filter>Source\TakeATank</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TakeATank\TakeATankHud.cpp">
+      <Filter>Source\TakeATank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TakeATank\TakeATankHud.h">
+      <Filter>Source\TakeATank</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TakeATank\TakeATankPawn.cpp">
+      <Filter>Source\TakeATank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TakeATank\TakeATankPawn.h">
+      <Filter>Source\TakeATank</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TakeATank\TakeATankWheelFront.cpp">
+      <Filter>Source\TakeATank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TakeATank\TakeATankWheelFront.h">
+      <Filter>Source\TakeATank</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TakeATank\TakeATankWheelRear.cpp">
+      <Filter>Source\TakeATank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TakeATank\TakeATankWheelRear.h">
+      <Filter>Source\TakeATank</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TakeATank\Test.cpp">
+      <Filter>Source\TakeATank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TakeATank\Test.h">
+      <Filter>Source\TakeATank</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

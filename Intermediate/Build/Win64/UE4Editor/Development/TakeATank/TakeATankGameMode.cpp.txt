@@ -1,0 +1,18 @@
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\Definitions.TakeATank.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\TakeATankGameMode.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Inc\TakeATank\TakeATankGameMode.generated.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\TakeATankPawn.h
+C:\UE_4.27\Engine\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public\WheeledVehicle.h
+C:\UE_4.27\Engine\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles\WheeledVehicle.generated.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Inc\TakeATank\TakeATankPawn.generated.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\TakeATankHud.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Inc\TakeATank\TakeATankHud.generated.h

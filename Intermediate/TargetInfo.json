@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TakeATank",
+			"Path": "C:\\Users\\Marku\\OneDrive\\Dokument\\Unreal Projects\\TakeATank\\Source\\TakeATank.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TakeATankEditor",
+			"Path": "C:\\Users\\Marku\\OneDrive\\Dokument\\Unreal Projects\\TakeATank\\Source\\TakeATankEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
