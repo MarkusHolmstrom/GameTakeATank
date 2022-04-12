@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TakeATank.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{925987FF-3F41-4EEF-9D0D-447432BADB51}</UniqueIdentifier>
+      <UniqueIdentifier>{B9B0B5B8-15A0-4F5B-B91A-56605554D08D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TakeATank.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +15,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{C7DEE798-C391-4BE6-ACB8-8CBDC5089607}</UniqueIdentifier>
+      <UniqueIdentifier>{659B949B-97D1-4154-ACA3-3E552247930D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TakeATank">
-      <UniqueIdentifier>{D1F3A348-E56F-4ACB-95BC-7FE2E8E30132}</UniqueIdentifier>
+      <UniqueIdentifier>{1563768B-7666-44D0-976F-3763859489E2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TakeATank\TakeATank.Build.cs">
       <Filter>Source\TakeATank</Filter>
@@ -62,12 +62,6 @@
     <ClInclude Include="..\..\Source\TakeATank\TakeATankPawn.h">
       <Filter>Source\TakeATank</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\TakeATank\TakeATankTractor.cpp">
-      <Filter>Source\TakeATank</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\TakeATank\TakeATankTractor.h">
-      <Filter>Source\TakeATank</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\TakeATank\TakeATankWheelFront.cpp">
       <Filter>Source\TakeATank</Filter>
     </ClCompile>
@@ -80,11 +74,23 @@
     <ClInclude Include="..\..\Source\TakeATank\TakeATankWheelRear.h">
       <Filter>Source\TakeATank</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\TakeATank\Test.cpp">
-      <Filter>Source\TakeATank</Filter>
+    <Filter Include="Source\TakeATank\Camera">
+      <UniqueIdentifier>{D0424E11-3248-4D78-92C5-1AAF0855D27F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TakeATank\Camera\TakeATankCamera.cpp">
+      <Filter>Source\TakeATank\Camera</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\TakeATank\Test.h">
-      <Filter>Source\TakeATank</Filter>
+    <ClInclude Include="..\..\Source\TakeATank\Camera\TakeATankCamera.h">
+      <Filter>Source\TakeATank\Camera</Filter>
+    </ClInclude>
+    <Filter Include="Source\TakeATank\Tractor">
+      <UniqueIdentifier>{05DFDE9B-735B-4A3E-A0B2-D0CBDD6B7D17}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TakeATank\Tractor\TakeATankTractor.cpp">
+      <Filter>Source\TakeATank\Tractor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TakeATank\Tractor\TakeATankTractor.h">
+      <Filter>Source\TakeATank\Tractor</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
