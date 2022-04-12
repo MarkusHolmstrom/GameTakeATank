@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TakeATank.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3EAA2063-C9D4-4151-97BE-62618B0C9CE9}</UniqueIdentifier>
+      <UniqueIdentifier>{925987FF-3F41-4EEF-9D0D-447432BADB51}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TakeATank.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,11 @@
     <None Include="..\..\Source\TakeATankEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{8FFE3E62-4818-45F9-83A6-31B5112282B7}</UniqueIdentifier>
+      <UniqueIdentifier>{C7DEE798-C391-4BE6-ACB8-8CBDC5089607}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TakeATank">
-      <UniqueIdentifier>{8BA83866-3BFA-4F49-9864-A20505D99B6D}</UniqueIdentifier>
+      <UniqueIdentifier>{D1F3A348-E56F-4ACB-95BC-7FE2E8E30132}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TakeATank\TakeATank.Build.cs">
       <Filter>Source\TakeATank</Filter>
@@ -57,6 +60,12 @@
       <Filter>Source\TakeATank</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TakeATank\TakeATankPawn.h">
+      <Filter>Source\TakeATank</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TakeATank\TakeATankTractor.cpp">
+      <Filter>Source\TakeATank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TakeATank\TakeATankTractor.h">
       <Filter>Source\TakeATank</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TakeATank\TakeATankWheelFront.cpp">
