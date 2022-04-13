@@ -15,8 +15,9 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankCamera() {}
 // Cross Module References
 	TAKEATANK_API UClass* Z_Construct_UClass_ATakeATankCamera_NoRegister();
 	TAKEATANK_API UClass* Z_Construct_UClass_ATakeATankCamera();
-	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_TakeATank();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -35,6 +36,10 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankCamera() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraInput_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_CameraInput;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Root_MetaData[];
 #endif
@@ -60,15 +65,23 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankCamera() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_ATakeATankCamera_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_AActor,
+		(UObject* (*)())Z_Construct_UClass_APawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_TakeATank,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATakeATankCamera_Statics::Class_MetaDataParams[] = {
+		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Camera/TakeATankCamera.h" },
 		{ "ModuleRelativePath", "Camera/TakeATankCamera.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATakeATankCamera_Statics::NewProp_CameraInput_MetaData[] = {
+		{ "Category", "TakeATankCamera" },
+		{ "ModuleRelativePath", "Camera/TakeATankCamera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATakeATankCamera_Statics::NewProp_CameraInput = { "CameraInput", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATakeATankCamera, CameraInput), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UClass_ATakeATankCamera_Statics::NewProp_CameraInput_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATakeATankCamera_Statics::NewProp_CameraInput_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATakeATankCamera_Statics::NewProp_Root_MetaData[] = {
 		{ "Category", "TakeATankCamera" },
@@ -108,6 +121,7 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankCamera() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATakeATankCamera_Statics::NewProp_FollowActor = { "FollowActor", nullptr, (EPropertyFlags)0x0010000000000801, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATakeATankCamera, FollowActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATakeATankCamera_Statics::NewProp_FollowActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATakeATankCamera_Statics::NewProp_FollowActor_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATakeATankCamera_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATakeATankCamera_Statics::NewProp_CameraInput,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATakeATankCamera_Statics::NewProp_Root,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATakeATankCamera_Statics::NewProp_Camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATakeATankCamera_Statics::NewProp_SpringArm,
@@ -119,7 +133,7 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankCamera() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ATakeATankCamera_Statics::ClassParams = {
 		&ATakeATankCamera::StaticClass,
-		"Engine",
+		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
@@ -141,7 +155,7 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankCamera() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATakeATankCamera, 2648515999);
+	IMPLEMENT_CLASS(ATakeATankCamera, 2675182533);
 	template<> TAKEATANK_API UClass* StaticClass<ATakeATankCamera>()
 	{
 		return ATakeATankCamera::StaticClass();

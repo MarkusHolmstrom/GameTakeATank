@@ -4,20 +4,24 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/SpringArmComponent.h"
-#include "GameFramework/Actor.h"
+//#include "GameFramework/Actor.h"
+#include "GameFramework/Pawn.h"
 #include "TakeATankCamera.generated.h"
 
 class UCameraComponent;
 
 
 UCLASS()
-class TAKEATANK_API ATakeATankCamera : public AActor
+class TAKEATANK_API ATakeATankCamera : public APawn
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
 	ATakeATankCamera();
+
+	UPROPERTY(VisibleAnywhere)
+	FVector2D CameraInput;
 
 	UPROPERTY(VisibleAnywhere)
 	USceneComponent* Root;
@@ -42,4 +46,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	void PitchCamera(float Value);
+	void YawCamera(float Value);
 };

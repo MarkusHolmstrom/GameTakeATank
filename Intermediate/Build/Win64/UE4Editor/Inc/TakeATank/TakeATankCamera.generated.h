@@ -13,28 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TAKEATANK_TakeATankCamera_generated_h
 
-#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_SPARSE_DATA
-#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_RPC_WRAPPERS
-#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_INCLASS_NO_PURE_DECLS \
+#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_SPARSE_DATA
+#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_RPC_WRAPPERS
+#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATakeATankCamera(); \
 	friend struct Z_Construct_UClass_ATakeATankCamera_Statics; \
 public: \
-	DECLARE_CLASS(ATakeATankCamera, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TakeATank"), NO_API) \
+	DECLARE_CLASS(ATakeATankCamera, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TakeATank"), NO_API) \
 	DECLARE_SERIALIZER(ATakeATankCamera)
 
 
-#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_INCLASS \
+#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesATakeATankCamera(); \
 	friend struct Z_Construct_UClass_ATakeATankCamera_Statics; \
 public: \
-	DECLARE_CLASS(ATakeATankCamera, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TakeATank"), NO_API) \
+	DECLARE_CLASS(ATakeATankCamera, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TakeATank"), NO_API) \
 	DECLARE_SERIALIZER(ATakeATankCamera)
 
 
-#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_STANDARD_CONSTRUCTORS \
+#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATakeATankCamera(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATakeATankCamera) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_ENHANCED_CONSTRUCTORS \
+#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATakeATankCamera(ATakeATankCamera&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATakeATankCamera)
 
 
-#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_PRIVATE_PROPERTY_OFFSET
-#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_13_PROLOG
-#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_GENERATED_BODY_LEGACY \
+#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_PRIVATE_PROPERTY_OFFSET
+#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_14_PROLOG
+#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_PRIVATE_PROPERTY_OFFSET \
-	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_SPARSE_DATA \
-	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_RPC_WRAPPERS \
-	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_INCLASS \
-	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_STANDARD_CONSTRUCTORS \
+	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_PRIVATE_PROPERTY_OFFSET \
+	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_SPARSE_DATA \
+	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_RPC_WRAPPERS \
+	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_INCLASS \
+	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_GENERATED_BODY \
+#define TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_PRIVATE_PROPERTY_OFFSET \
-	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_SPARSE_DATA \
-	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_INCLASS_NO_PURE_DECLS \
-	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_16_ENHANCED_CONSTRUCTORS \
+	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_PRIVATE_PROPERTY_OFFSET \
+	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_SPARSE_DATA \
+	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_INCLASS_NO_PURE_DECLS \
+	TakeATank_Source_TakeATank_Camera_TakeATankCamera_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
