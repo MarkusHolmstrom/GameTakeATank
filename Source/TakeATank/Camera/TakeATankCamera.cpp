@@ -39,8 +39,8 @@ void ATakeATankCamera::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	if (FollowActor == nullptr)
 	{
-		FollowActor = UGameplayStatics::GetActorOfClass(GetWorld(), ATakeATankTractor::StaticClass());
-		//return;
+		//FollowActor = UGameplayStatics::GetActorOfClass(GetWorld(), ATakeATankTractor::StaticClass());
+		return;
 	}
 
 	FVector Loc = GetActorLocation();

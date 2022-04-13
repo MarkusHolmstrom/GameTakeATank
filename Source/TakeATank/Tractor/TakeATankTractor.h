@@ -30,8 +30,8 @@ public:
 	/*void EquipPowerup(UPowerUp* NewPowerUp);
 	bool HasEquippedPowerup() { return PowerUp != nullptr; }*/
 
-	//UPROPERTY(VisibleAnywhere)
-	//	FVector2D CameraInput;
+	UPROPERTY(VisibleAnywhere)
+	FVector2D CameraInput;
 
 	UPROPERTY(EditAnywhere)
 	ATakeATankCamera* Cam;

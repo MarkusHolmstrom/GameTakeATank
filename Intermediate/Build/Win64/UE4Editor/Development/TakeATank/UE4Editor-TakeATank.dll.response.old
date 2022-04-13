@@ -34,6 +34,7 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\TakeATankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\TakeATankCamera.cpp.obj"
 "C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\TakeATankTractor.cpp.obj"
 "C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\TakeATank.cpp.obj"
 "C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\TakeATankGameMode.cpp.obj"
@@ -42,6 +43,7 @@
 "C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\TakeATankWheelFront.cpp.obj"
 "C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\TakeATankWheelRear.cpp.obj"
 "C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\TakeATank.init.gen.cpp.obj"
+"C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\TakeATankCamera.gen.cpp.obj"
 "C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\TakeATankGameMode.gen.cpp.obj"
 "C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\TakeATankHud.gen.cpp.obj"
 "C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\TakeATankPawn.gen.cpp.obj"

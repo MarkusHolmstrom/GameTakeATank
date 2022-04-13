@@ -20,7 +20,7 @@ ATakeATankTractor::ATakeATankTractor()
 
 	//MoveComp = CreateDefaultSubobject<UTankDriverComponent>(TEXT("DriveComponent"));
 
-	//CameraInput = FVector2D(0, 0);
+	CameraInput = FVector2D(0, 0);
 	//if (Cam != nullptr)
 	//{
 	//	GEngine->AddOnScreenDebugMessage(INDEX_NONE, 0.0f, FColor::Cyan, FString::Printf(TEXT("Error: no camera found!!")));

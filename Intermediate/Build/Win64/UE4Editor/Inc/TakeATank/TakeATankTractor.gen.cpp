@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankTractor() {}
 	TAKEATANK_API UClass* Z_Construct_UClass_ATakeATankTractor();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_TakeATank();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
+	TAKEATANK_API UClass* Z_Construct_UClass_ATakeATankCamera_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
 	void ATakeATankTractor::StaticRegisterNativesATakeATankTractor()
@@ -32,6 +34,14 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankTractor() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraInput_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_CameraInput;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Cam_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Cam;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BoxCollision_MetaData[];
 #endif
@@ -54,16 +64,32 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankTractor() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_CameraInput_MetaData[] = {
+		{ "Category", "TakeATankTractor" },
+		{ "Comment", "/*void EquipPowerup(UPowerUp* NewPowerUp);\n\x09""bool HasEquippedPowerup() { return PowerUp != nullptr; }*/" },
+		{ "ModuleRelativePath", "Tractor/TakeATankTractor.h" },
+		{ "ToolTip", "void EquipPowerup(UPowerUp* NewPowerUp);\n       bool HasEquippedPowerup() { return PowerUp != nullptr; }" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_CameraInput = { "CameraInput", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATakeATankTractor, CameraInput), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_CameraInput_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_CameraInput_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_Cam_MetaData[] = {
+		{ "Category", "TakeATankTractor" },
+		{ "ModuleRelativePath", "Tractor/TakeATankTractor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_Cam = { "Cam", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATakeATankTractor, Cam), Z_Construct_UClass_ATakeATankCamera_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_Cam_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_Cam_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_BoxCollision_MetaData[] = {
 		{ "Category", "TakeATankTractor" },
-		{ "Comment", "//UPROPERTY(EditAnywhere)\n//\x09""ATankCamera* Cam;\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Tractor/TakeATankTractor.h" },
-		{ "ToolTip", "UPROPERTY(EditAnywhere)\n       ATankCamera* Cam;" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_BoxCollision = { "BoxCollision", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATakeATankTractor, BoxCollision), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_BoxCollision_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_BoxCollision_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATakeATankTractor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_CameraInput,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_Cam,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATakeATankTractor_Statics::NewProp_BoxCollision,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATakeATankTractor_Statics::StaticCppClassTypeInfo = {
@@ -93,7 +119,7 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankTractor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATakeATankTractor, 657653995);
+	IMPLEMENT_CLASS(ATakeATankTractor, 68874711);
 	template<> TAKEATANK_API UClass* StaticClass<ATakeATankTractor>()
 	{
 		return ATakeATankTractor::StaticClass();
