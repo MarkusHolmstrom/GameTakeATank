@@ -8,14 +8,27 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef TAKEATANK_TakeATankTractor_generated_h
 #error "TakeATankTractor.generated.h already included, missing '#pragma once' in TakeATankTractor.h"
 #endif
 #define TAKEATANK_TakeATankTractor_generated_h
 
 #define TakeATank_Source_TakeATank_Tractor_TakeATankTractor_h_18_SPARSE_DATA
-#define TakeATank_Source_TakeATank_Tractor_TakeATankTractor_h_18_RPC_WRAPPERS
-#define TakeATank_Source_TakeATank_Tractor_TakeATankTractor_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define TakeATank_Source_TakeATank_Tractor_TakeATankTractor_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnOverlapEnd); \
+	DECLARE_FUNCTION(execOnOverlapBegin);
+
+
+#define TakeATank_Source_TakeATank_Tractor_TakeATankTractor_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnOverlapEnd); \
+	DECLARE_FUNCTION(execOnOverlapBegin);
+
+
 #define TakeATank_Source_TakeATank_Tractor_TakeATankTractor_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATakeATankTractor(); \

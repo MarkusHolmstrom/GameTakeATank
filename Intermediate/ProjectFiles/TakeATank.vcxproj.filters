@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TakeATank.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{AA4695E0-B671-458B-8316-20107B3C6DF3}</UniqueIdentifier>
+      <UniqueIdentifier>{EB7BC769-1EB9-45B2-907C-27C2F7789F69}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TakeATank.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +15,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{5FFB928E-9B5D-4E72-97A6-427648862B7D}</UniqueIdentifier>
+      <UniqueIdentifier>{47BEC171-95AF-41CD-BCC9-0F97AED6B35B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TakeATank">
-      <UniqueIdentifier>{F452654C-CFA8-496B-BB86-5220DC782E5D}</UniqueIdentifier>
+      <UniqueIdentifier>{0A633898-FFC2-450B-831F-39EEE7BE0A28}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TakeATank\TakeATank.Build.cs">
       <Filter>Source\TakeATank</Filter>
@@ -75,7 +75,7 @@
       <Filter>Source\TakeATank</Filter>
     </ClInclude>
     <Filter Include="Source\TakeATank\Camera">
-      <UniqueIdentifier>{8FBD9D2C-BE1B-48B9-8DF4-9A43A27E2F6D}</UniqueIdentifier>
+      <UniqueIdentifier>{FD3E06F3-A2A2-4D34-9D6C-242FEF8371A6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TakeATank\Camera\TakeATankCamera.cpp">
       <Filter>Source\TakeATank\Camera</Filter>
@@ -83,8 +83,32 @@
     <ClInclude Include="..\..\Source\TakeATank\Camera\TakeATankCamera.h">
       <Filter>Source\TakeATank\Camera</Filter>
     </ClInclude>
+    <Filter Include="Source\TakeATank\Enemy">
+      <UniqueIdentifier>{3D990AEB-4EDD-46C8-BA64-58E35AD01232}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TakeATank\Enemy\TakeATankEnemyTank.cpp">
+      <Filter>Source\TakeATank\Enemy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TakeATank\Enemy\TakeATankEnemyTank.h">
+      <Filter>Source\TakeATank\Enemy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TakeATank\Enemy\TATEnemyBullet.cpp">
+      <Filter>Source\TakeATank\Enemy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TakeATank\Enemy\TATEnemyBullet.h">
+      <Filter>Source\TakeATank\Enemy</Filter>
+    </ClInclude>
+    <Filter Include="Source\TakeATank\Level">
+      <UniqueIdentifier>{CA847A43-233B-49A9-9195-CAA82D92D64F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TakeATank\Level\TATGoalZone.cpp">
+      <Filter>Source\TakeATank\Level</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TakeATank\Level\TATGoalZone.h">
+      <Filter>Source\TakeATank\Level</Filter>
+    </ClInclude>
     <Filter Include="Source\TakeATank\Tractor">
-      <UniqueIdentifier>{57F58D74-623A-4628-B483-0FCC0FAD5D86}</UniqueIdentifier>
+      <UniqueIdentifier>{D795DCFB-5648-4D58-9FC4-A212328DBE20}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TakeATank\Tractor\TakeATankTractor.cpp">
       <Filter>Source\TakeATank\Tractor</Filter>

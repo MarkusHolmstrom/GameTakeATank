@@ -14,8 +14,7 @@ ATakeATankTractor::ATakeATankTractor()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	//BoxCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("Collision"));
-	//BoxCollision->SetCollisionResponseToAllChannels(ECR_Block);
+	SphereCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("SphereCollision"));
 	//RootComponent = BoxCollision;
 
 	//MoveComp = CreateDefaultSubobject<UTankDriverComponent>(TEXT("DriveComponent"));
@@ -60,66 +59,18 @@ void ATakeATankTractor::Tick(float DeltaTime)
 	//	//Cam = PlayerCamera->getcamera
 	//}
 
-	//if (PowerUp != nullptr)
-	//{
-	//	GEngine->AddOnScreenDebugMessage(INDEX_NONE, 0.0f, FColor::Cyan,
-	//		PowerUp->GetClass()->GetName());
-	//}
-	//if (bPowerActivated)
-	//{
-	//	PowerUp->TickActive(DeltaTime);
-	//	if (PowerUp->ShouldDeactivate())
-	//	{
-	//		bPowerActivated = false;
-	//		PowerUp = nullptr;
-	//	}
-	//}
 }
 
-
-// Called to bind functionality to input
-void ATakeATankTractor::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void ATakeATankTractor::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-	//PlayerInputComponent->BindAxis(TEXT("Acc"), this, &APlayerTank::HandleAccInput);
-	//PlayerInputComponent->BindAxis(TEXT("Turn"), this, &APlayerTank::HandleTurnInput);
-
-	//PlayerInputComponent->BindAxis(TEXT("CameraPitch"), this, &APlayerTank::PitchCamera);
-	//PlayerInputComponent->BindAxis(TEXT("CameraYaw"), this, &APlayerTank::YawCamera);
-
-	//PlayerInputComponent->BindAction(TEXT("ActivatePowerUp"), IE_Pressed, this, &APlayerTank::HandleActivatePowerUp);
 
 }
 
-void ATakeATankTractor::HandleActivatePowerUp()
+void ATakeATankTractor::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
-	/*if (PowerUp != nullptr && !bPowerActivated)
-	{
-		GEngine->AddOnScreenDebugMessage(INDEX_NONE, 10.0f, FColor::Cyan,
-			FString::Printf(TEXT("Activated!!!")));
-		PowerUp->OnPowerActivated();
-		bPowerActivated = true;
-	}*/
 
 }
 
-void ATakeATankTractor::HandleAccInput(float Value)
-{
-	/*GEngine->AddOnScreenDebugMessage(INDEX_NONE, 0.0f, FColor::Cyan,
-		FString::Printf(TEXT("Acc %f"), Value));
-
-	MoveComp->DriveForwardInput = Value;*/
-}
-
-void ATakeATankTractor::HandleTurnInput(float Value)
-{
-	/*GEngine->AddOnScreenDebugMessage(INDEX_NONE, 0.0f, FColor::Blue,
-		FString::Printf(TEXT("Turn %f"), Value));
-
-	MoveComp->SteerInput = Value;*/
-
-}
 
 void ATakeATankTractor::PitchCamera(float Value)
 {
@@ -131,10 +82,4 @@ void ATakeATankTractor::YawCamera(float Value)
 	/*CameraInput.X = Value;*/
 
 }
-//
-//void ATakeATankTractor::EquipPowerup(UPowerUp* NewPowerUp)
-//{
-//	/*PowerUp = NewPowerUp;
-//	PowerUp->Setup();*/
-//}
 

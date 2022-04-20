@@ -1,0 +1,7 @@
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Development\TakeATank\Definitions.TakeATank.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\Level\TATGoalZone.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Intermediate\Build\Win64\UE4Editor\Inc\TakeATank\TATGoalZone.generated.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h

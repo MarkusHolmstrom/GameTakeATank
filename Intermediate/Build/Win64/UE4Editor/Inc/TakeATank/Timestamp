@@ -1,8 +1,11 @@
 C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\Camera\TakeATankCamera.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\Enemy\TakeATankEnemyTank.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\Tractor\TakeATankTractor.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\Tractor\TractorComponent.h
 C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\TakeATankGameMode.h
 C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\TakeATankHud.h
-C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\TakeATankPawn.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\Enemy\TATEnemyBullet.h
 C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\TakeATankWheelFront.h
 C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\TakeATankWheelRear.h
-C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\Tractor\TractorComponent.h
-C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\Tractor\TakeATankTractor.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\TakeATankPawn.h
+C:\Users\Marku\OneDrive\Dokument\Unreal Projects\TakeATank\Source\TakeATank\Level\TATGoalZone.h
