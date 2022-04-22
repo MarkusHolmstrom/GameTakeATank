@@ -235,11 +235,11 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankTractor() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATakeATankTractor_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "//class UPowerUp;\n" },
+		{ "Comment", "// NOTICE:\n// This is not used, to scared to delete it from the project\n" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Tractor/TakeATankTractor.h" },
 		{ "ModuleRelativePath", "Tractor/TakeATankTractor.h" },
-		{ "ToolTip", "class UPowerUp;" },
+		{ "ToolTip", "NOTICE:\nThis is not used, to scared to delete it from the project" },
 	};
 #endif
 #if WITH_METADATA
@@ -298,7 +298,7 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankTractor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATakeATankTractor, 2666765404);
+	IMPLEMENT_CLASS(ATakeATankTractor, 733224523);
 	template<> TAKEATANK_API UClass* StaticClass<ATakeATankTractor>()
 	{
 		return ATakeATankTractor::StaticClass();

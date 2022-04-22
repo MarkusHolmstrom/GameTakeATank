@@ -10,6 +10,8 @@
 
 class UCameraComponent;
 
+// NOTICE:
+// This is not used, to scared to delete it from the project
 
 UCLASS()
 class TAKEATANK_API ATakeATankCamera : public APawn

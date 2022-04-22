@@ -12,6 +12,10 @@ class USpringArmComponent;
 class ATakeATankCamera;
 //class UPowerUp;
 
+
+// NOTICE:
+// This is not used, to scared to delete it from the project
+
 UCLASS()
 class TAKEATANK_API ATakeATankTractor : public APawn
 {
@@ -20,9 +24,6 @@ class TAKEATANK_API ATakeATankTractor : public APawn
 public:	
 	// Sets default values for this actor's properties
 	ATakeATankTractor();
-
-	void HandleAccInput(float Value);
-	void HandleTurnInput(float Value);
 
 	void PitchCamera(float Value);
 	void YawCamera(float Value);

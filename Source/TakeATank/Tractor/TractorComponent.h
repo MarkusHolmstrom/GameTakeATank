@@ -8,6 +8,7 @@
 
 class ATakeATankCamera;
 class USpringArmComponent;
+class ATakeATankEnemyTank;
 
 UCLASS( ClassGroup=(Tractor), meta=(BlueprintSpawnableComponent) )
 class TAKEATANK_API UTractorComponent : public UActorComponent
@@ -18,16 +19,22 @@ public:
 	// Sets default values for this component's properties
 	UTractorComponent();
 
-
-	UPROPERTY(VisibleAnywhere)
-	FVector2D CameraInput;
+	UPROPERTY(EditAnywhere)
+	AActor* Tractor;
 
 	UPROPERTY(EditAnywhere)
-	USpringArmComponent* SpringArm;
+	float MinZPosition;
 
+	UPROPERTY(EditAnywhere)
+	float MaxXAngle;
+	// Needed to check the tractors angles not every frame
+	UPROPERTY(EditAnywhere)
+	float CheckTimer;
+	UPROPERTY(EditAnywhere)
+	float Timer;
 
-	//UPROPERTY(EditAnywhere)
-	//ATakeATankCamera* Camera;
+	UFUNCTION()
+	bool CheckIfTractorTipped(float DeltaTime);
 
 protected:
 	// Called when the game starts

@@ -8,6 +8,10 @@
 //#include "..\..\Source\Tanks\PowerUp.h"
 //#include "Kismet/GameplayStatics.h"
 
+
+// NOTICE:
+// This is not used, to scared to delete it from the project
+
 // Sets default values
 ATakeATankTractor::ATakeATankTractor()
 {

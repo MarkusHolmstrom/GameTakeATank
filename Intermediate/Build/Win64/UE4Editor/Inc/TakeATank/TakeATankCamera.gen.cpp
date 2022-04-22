@@ -70,9 +70,11 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankCamera() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATakeATankCamera_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "// NOTICE:\n// This is not used, to scared to delete it from the project\n" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Camera/TakeATankCamera.h" },
 		{ "ModuleRelativePath", "Camera/TakeATankCamera.h" },
+		{ "ToolTip", "NOTICE:\nThis is not used, to scared to delete it from the project" },
 	};
 #endif
 #if WITH_METADATA
@@ -155,7 +157,7 @@ void EmptyLinkFunctionForGeneratedCodeTakeATankCamera() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATakeATankCamera, 2675182533);
+	IMPLEMENT_CLASS(ATakeATankCamera, 1473975379);
 	template<> TAKEATANK_API UClass* StaticClass<ATakeATankCamera>()
 	{
 		return ATakeATankCamera::StaticClass();

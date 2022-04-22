@@ -32,10 +32,7 @@ void ATATEnemyBullet::Tick(float DeltaTime)
 
 	if (Hit.bBlockingHit)
 	{
-		/*if (Hit.Actor->IsA<ATractor>())
-		{
-			Hit.Actor->DoDamage();
-		}*/
+		// Make bouncy balls bouncy
 		if (Hit.bStartPenetrating)
 		{
 			AddActorWorldOffset(Hit.Normal * (Hit.PenetrationDepth + 0.01f));
